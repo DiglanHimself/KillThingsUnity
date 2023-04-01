@@ -16,7 +16,7 @@ public class Throwthing : MonoBehaviour
         trb = throwthingprefab.GetComponent<Rigidbody>();
     }
 
-    private void FixedUpdate()
+    private void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
